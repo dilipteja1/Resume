@@ -1,0 +1,324 @@
+%-------------------------
+% Resume in Latex
+% Author : Dilip Teja
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+\usepackage{paralist} % for inline lists
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Dilip Teja} \\ \vspace{1pt}
+    \vspace{1pt} \\ Flat No. Satyam-G2, Fortune Kum Kum Heights, Kondapur, Hyderabad-500084 India. \\ \vspace{2pt}
+    \small \raisebox{-0.1\height}\faPhone\ +91-7731026291 ~ \href{mailto:x@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{tejadilip23898@gmail.com}} ~ 
+    \href{https://linkedin.com/in//}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/dilipteja}}  ~
+    \href{https://github.com/}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/dilipteja1}}
+    
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{ACADEMIC QUALIFICATION}
+  \resumeSubHeadingListStart
+  
+                \resumeSubheading
+                    {National Institute of Technology, Warangal}{Warangal, India}
+                    {Bachelor of Technology in Electronics and Communication - 7.4/10}
+                    {Jun 2016 -- May 2020}
+
+                \resumeSubheading
+                   {Sri Chaitanya Institutions}{Hyderabad, India}
+                   {Intermediate (+1 and +2) – 98.4/100}{May 2016}      
+
+                \resumeSubheading
+                   {Sri Chaitanya School}{Hyderabad, India}
+                   {Class X – 9.7/10}{May 2014}       
+   
+  \resumeSubHeadingListEnd
+
+%-----------RELEVANT COURSES-----------
+\section{RELEVANT COURSES}
+\begin{inparaitem}
+\item Computer Programming
+\item Data Structures and Algorithms 
+\item Computer Networks
+\item Computer Architecture and Organisation
+\item Object-Oriented Programming 
+\item Operating systems
+\item Optimization Techniques
+\item Engineering Mathematics
+\item Digital System Design
+\item Probability Theory
+\item Digital Signal Processing
+\item Microprocessors 
+\end{inparaitem}
+
+
+%-----------EXPERIENCE-----------
+\section{WORK EXPERIENCE}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      		{Qualcomm India Private Limited}{Hyderabad, India }
+      		{\textbf{Software Engineer}}{Dec 2021 -- Present}
+      		\resumeItemListStart
+        			\resumeItem{ Responsible for validating Linux Kernel and Linux 																					Security components for Qualcomm IoT chipsets 																						(Wearables, Connected Cameras, Industrial IoT products) 																	and part of five successful product releases.}
+        			\resumeItem{Developed and integrated logging mechanism for stability 								 			 						test framework using Python, which provides MTBF 													    						reports.}
+                    \resumeItem{Created more than 10 process improvement designs 											 									out of which four are in execution phase.}
+        	\vspace{-15pt}
+      		\resumeItemListEnd
+            
+      \resumeSubheading       
+      		{}{}      
+      		{\textit{\textbf{Associate Software Engineer}}}{Jun 2020 -- Nov 2021}
+            \resumeItemListStart
+        			\resumeItem{Built Kernel Automation Framework and automated more 					 			            						 than 200 test cases (Scheduler, Memory) using \textbf{Python,                                                     													OOPS, and Design Patterns}.}
+        			\resumeItem{Developed Web Portal having more than 100 active users 								                using\textbf{ Django, Javascript, Ajax, Bootstrap, PostgreSQL}                                                   and deployed using Apache server.}
+                    \resumeItem{The Web App provides data analytics and product information improving the team's productivity.}
+      		\resumeItemListEnd            
+   
+  \resumeSubHeadingListEnd
+  
+  
+  %-----------INTERNSHIPS-----------  
+\section{INTERNSHIP EXPERIENCE}
+  \resumeSubHeadingListStart
+
+     \resumeSubheading
+        	{Qualcomm India Private Limited}{Hyderabad, India}
+      		{\textbf{Interim Engineering Intern}}{Apr 2019 -- Jun 2019}     
+            \resumeItemListStart
+                  \resumeItem{Developed end-to-end Automation for a nightly trigger of 												 test jobs, which improved the resource utilization by 30\%.}
+                  \resumeItem{Developed a Web App as a one stop solution for the team to   				                          check and analyze test reports, improving efficiency.}         
+                 \resumeItem{Implemented the App using \textbf{Python Flask, Ajax, Bootstrap,                                            PostgreSQL} and deployed using Apache server.}
+           \resumeItemListEnd
+
+    \resumeSubheading
+      		{Indian Institute of Science, Bangalore (IISc)}{Bangalore, India}
+      		{\textbf{Research Intern --- Guide}:Dr.Amarjot Singh,Founder \& CEO at SkyLark 														Labs Inc. }{Apr 2018 -- Jun 2018}       
+      		\resumeItemListStart
+        		 \resumeItem{Research on Transfer Learning and its applications.}         
+        		 \resumeItem{Trained a ResNet model with augmented data for detecting and classifying gender and age.}
+            \resumeItemListEnd             
+ 
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{RELEVANT PROJECTS}
+    \resumeSubHeadingListStart
+    
+      	\resumeProjectHeading
+          		{\textbf{Underage Kids Identification} $|$ \emph{Deep Learning, Keras}}{Aug 2018}
+          		\resumeItemListStart
+             			\resumeItem{Developed a Compact Stagewise \textbf{Regression Network}                                                    and Face Recognition using \textbf{Incremental Classifier}.}
+            			\resumeItem{This model detects or recognizes underage kids                                                                  to prevent them from performing restricted activities.}
+            			\resumeItem{Performed fine-tuning of a pre-trained model with                                                       augmented data and could achieve around 89\% accuracy.}            
+          		\resumeItemListEnd
+                
+          \vspace{-15pt}
+        \resumeProjectHeading
+             	{\textbf{Online Voting System} $|$ \emph{Blockchain }}{Oct 2019}
+          		\resumeItemListStart
+              			\resumeItem{Developed Blockchain and implemented \textbf{Smart                                                                 Contracts} for voting in elections to prevent malpractices.}
+            			\resumeItem{Accomplished as part of Microsoft CodeFunDo++ 															competition and secured \textbf{second place} across the                                                               college.}
+          		\resumeItemListEnd
+                
+          \vspace{+5pt}      
+         \resumeProjectHeading
+           {\textbf{Line Follower} $|$ \emph{Arduino}} {Oct 2017}
+          \resumeItemListStart
+            		\resumeItem{Designed a line follower using Arduino UNO as part of 													the Hackathon.}
+             		\resumeItem{The prototype follows a particular line detected 												               using an Arduino board and its attached sensors.}  
+          \resumeItemListEnd 
+          
+       \vspace{-15pt}
+      \resumeProjectHeading
+          	{\textbf{A Novel OFDM scheme for Visible Light Communications } $|$ 								\emph{Matlab}}{Nov 2019}
+          	\resumeItemListStart
+            		\resumeItem{Implemented a spectral efficient OFDM scheme using 														the \textbf{Index Modulation} technique. }
+             		\resumeItem{Monitored a spectral gain of 0.875 bits/s/Hz with OFDM-IM 											compared to conventional OFDM.}
+                    \resumeItem{Spectral gain of OFDM-IM improved data transfer rates 												    compared to conventional VLC techniques.}
+                    \resumeItem{Worked under the guidance of Prof V.V Mani, NIT 														Warangal}            		     
+          \resumeItemListEnd 
+   
+  \resumeSubHeadingListEnd
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{TECHNICAL SKILLS}
+ \begin{itemize}[leftmargin=0.15in, label={\roman*}]
+    \small{\item{
+             \textbf{Languages:}{\hspace{3cm} Python, C, C++, Java(basics), Matlab(Basics)} 
+             \\ \vspace{+1.5pt}
+             {\textbf{Web Development:}}{ \hspace{1.570cm}Django, HTML/CSS, Javascript, 															Ajax, Jquery, PostgreSQL}
+             \\ \vspace{+1.5pt}
+             \textbf{Developer Tools:}{\hspace{2.090cm}VS Code, Jupyter Notebook, Pycharm, 													Google Colab } 
+             \\ \vspace{+1.5pt}
+             \textbf{Technologies/Frameworks:}{\hspace{0.470cm}Linux Kernel, Keras, Git, 																			GitHub} 		
+             \\
+    }}
+ \end{itemize}
+
+
+%-----------CO-CURRICULARS-----------
+\section{ACHIEVEMENTS/CO-CURRICULAR/EXTRACURRICULAR}
+\resumeItemListStart      
+        	\resumeItem{Recipient of ”Orion Insta Award” from Senior Director at                                                 Qualcomm for outstanding contribution and efforts. 2021}
+            \resumeItem{Three time recipient of ”Passionate Executor Award” at 													Qualcomm for driving execution within deadlines. 2021}
+            \resumeItem{Achieved \textbf{All India Rank 602} in IIT-JEE  Mains among                                          over 1.2 million candidates. 2016}
+            \resumeItem{Secured \textbf{State Rank 512} in TS-EAMCET organized under 											Ministry of HRD, \textbf{Govt. of Telangana}. 2016}
+            \resumeItem{Secured \textbf{State Rank 1206} in AP-EAMCET organized under 										Ministry of HRD,\textbf{ Govt. of Andhra Pradesh}. 2016}
+            \resumeItem{Professional Badminton Player, participated in state level 												tournaments. 2012 - Present}
+  \resumeItemListEnd
+  
+  
+  %-----------LEADERSHIP-----------
+\section{LEADERSHIP ROLES}
+ \resumeSubheading 
+      {National Institute of Technology, Warangal}{Warangal, India}      
+      {Inter-NIT Championships}{Jun 2018 - Jun 2020}
+      \resumeItemListStart     
+        	\resumeItem{Led college Badminton Team as a captain to quarter-finals.}
+      \resumeItemListEnd  
+      
+ \vspace{-15pt}
+ \resumeSubheading 
+      {}{}      
+      {Batch Representative}{Aug 2019 - Mar 2020}
+      \resumeItemListStart      
+        	\resumeItem{Represented the ECE Class of 2020 in the Department UG 												Council and other department events.}
+        	\resumeItemListEnd
+            
+   \vspace{-15pt}
+  \resumeSubheading 
+      {}{}      
+      {Sponsorship and Public Relations Sub-Coordinator}{Aug 2018 - Mar 2019}
+      \resumeItemListStart      
+            \resumeItem{Responsible for organizing the college's cultural festival 'Spring                                     Spree' and dealing with various sponsors, notably Harvard                                              Ascend and GameRoom.}
+            \resumeItemListEnd
+            
+ \vspace{-15pt}
+ \resumeSubheading 
+      {}{}      
+      {Electronics Club Team Member}{Aug 2017 - May 2018}
+      \resumeItemListStart      
+        	\resumeItem{Involved in conducting various events, notably the Arduino                                             Workshop and the Circuits Workshop.}
+      \resumeItemListEnd
+      
+\end{document}
